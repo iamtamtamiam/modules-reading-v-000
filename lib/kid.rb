@@ -5,6 +5,8 @@ class Kid
   #include Dance 
   e#xtend MetaDancing
   
+  extend FancyDance::ClassMethods
+  include FancyDance::InstanceMethods
   
   attr_accessor :name
   
